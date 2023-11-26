@@ -1,5 +1,5 @@
-import Fast_Frame_Front_Interpretator_Halfmanual
+import XRapid_viewer
 
 if __name__ == '__main__':
-    my_interp = Fast_Frame_Front_Interpretator_Halfmanual.Fast_Frame_Front_Interpretator_Halfmanual()
+    my_interp = XRapid_viewer.XRapid_viewer()
 
