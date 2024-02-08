@@ -24,7 +24,8 @@ def open_rtv(fname):
 def open_folder():
     open_flag = 1
     images_list = []
-    file_name = filedialog.askopenfilename(initialdir='./Example')
+    #file_name = filedialog.askopenfilename(initialdir='./Example')
+    file_name = filedialog.askopenfilename(initialdir='Z:/Butterfly_MAGEN_2024')
     images_list.append(open_rtv(file_name))
     while open_flag:
         try:
